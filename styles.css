@@ -175,7 +175,7 @@ button { margin: 0; background: none; border: 0; padding: 0; border-radius: 0; -
 .bow.tie { animation: tie 650ms var(--ease-out); }
 @keyframes tie { 0% { transform: scale(0.8) rotate(-7deg); } 55% { transform: scale(1.07) rotate(2deg); } 100% { transform: none; } }
 #print-img, .print-text { transform-box: view-box; transform-origin: 300px 480px; }
-#print-img { mix-blend-mode: multiply; }
+.print-art { mix-blend-mode: multiply; }
 .pop { animation: pop 420ms var(--ease-out); }
 @keyframes pop { from { opacity: 0.2; transform: scale(0.92); } to { opacity: 1; transform: none; } }
 
